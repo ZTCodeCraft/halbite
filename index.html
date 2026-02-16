@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бирария Халбите | София – Бирена култура от 2000 г.</title>
+  <meta name="description" content="Бирария Халбите – най-добрата селекция от бири в София. Две локации: Малките Пет и Три Уши. Наливни бири, немски вурстове, бургери и скара.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__logo-icon">🍺</span>
+        <span class="nav__logo-text">Халбите</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">За нас</a></li>
+        <li><a href="#locations">Локации</a></li>
+        <li><a href="#beers">Бири</a></li>
+        <li><a href="#menu">Меню</a></li>
+        <li><a href="#contact">Контакти</a></li>
+        <li><a href="#contact" class="nav__cta">Резервация</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__subtitle">бирена култура от 2000 г.</p>
+      <h1 class="hero__title">Бирария<br>Халбите</h1>
+      <p class="hero__tagline">Най-добрата селекция от бири в България.<br>Две локации в сърцето на София.</p>
+      <div class="hero__actions">
+        <a href="#beers" class="btn btn--primary">Нашите бири</a>
+        <a href="#locations" class="btn btn--outline">Намери ни</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__content">
+          <span class="section-label">За нас</span>
+          <h2 class="section-title">25 години бирена<br>култура в София</h2>
+          <p class="about__text">
+            От 2000 година насам развиваме бирената култура в България. Предлагаме най-добрата селекция от бири, произведени или внесени в страната — сервирани на подходяща температура, в специални чаши и с подходяща храна.
+          </p>
+          <p class="about__text">
+            При нас ще намерите ексклузивни наливни бири, които не са налични другаде, редки бутилирани сортове и винаги нещо ново за опитване. Месото е прясно, никога замразено, от български доставчици. Зеленчуците пристигат всеки ден.
+          </p>
+          <div class="about__features">
+            <div class="about__feature">
+              <span class="about__feature-icon">🍻</span>
+              <div>
+                <h4>Ексклузивни бири</h4>
+                <p>Наливни сортове, налични само при нас</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <span class="about__feature-icon">🥩</span>
+              <div>
+                <h4>Прясно месо</h4>
+                <p>Никога замразено, от български доставчици</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <span class="about__feature-icon">📍</span>
+              <div>
+                <h4>Две локации</h4>
+                <p>В центъра на София, лесно достъпни</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about__image">
+          <div class="about__image-placeholder">
+            <span>🍺</span>
+            <p>Бирария Халбите</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations -->
+  <section class="locations" id="locations">
+    <div class="container">
+      <div class="locations__header">
+        <span class="section-label">Локации</span>
+        <h2 class="section-title">Две места, една страст</h2>
+      </div>
+      <div class="locations__grid">
+        <!-- Malkite Pet -->
+        <div class="location-card">
+          <div class="location-card__image">
+            <div class="location-card__placeholder">
+              <span>5</span>
+            </div>
+          </div>
+          <div class="location-card__content">
+            <h3 class="location-card__name">Малките Пет</h3>
+            <p class="location-card__tagline">Където всичко започна</p>
+            <div class="location-card__details">
+              <div class="location-card__detail">
+                <span>📍</span>
+                <p>ул. Неофит Рилски 72, София</p>
+              </div>
+              <div class="location-card__detail">
+                <span>📞</span>
+                <p><a href="tel:0878737786">0878 737 786</a></p>
+              </div>
+              <div class="location-card__detail">
+                <span>🕐</span>
+                <p>11:00 – 00:00, всеки ден</p>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn--primary btn--small">Резервирай</a>
+          </div>
+        </div>
+        <!-- Tri Ushi -->
+        <div class="location-card">
+          <div class="location-card__image">
+            <div class="location-card__placeholder">
+              <span>3</span>
+            </div>
+          </div>
+          <div class="location-card__content">
+            <h3 class="location-card__name">Три Уши</h3>
+            <p class="location-card__tagline">5 минути от бул. Витоша</p>
+            <div class="location-card__details">
+              <div class="location-card__detail">
+                <span>📍</span>
+                <p>ул. Три Уши 13, София</p>
+              </div>
+              <div class="location-card__detail">
+                <span>📞</span>
+                <p><a href="tel:0878737782">0878 737 782</a></p>
+              </div>
+              <div class="location-card__detail">
+                <span>🕐</span>
+                <p>11:00 – 00:00, всеки ден</p>
+              </div>
+            </div>
+            <div class="location-card__actions">
+              <a href="#contact" class="btn btn--primary btn--small">Резервирай</a>
+              <a href="https://triushi.halbite.com/orderfood" class="btn btn--outline btn--small" target="_blank">Поръчай за доставка</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beers -->
+  <section class="beers" id="beers">
+    <div class="container">
+      <div class="beers__header">
+        <span class="section-label">Наливни бири</span>
+        <h2 class="section-title">Избрано от кранчето</h2>
+        <p class="section-desc">Светли лагери, тъмни стаути, пшенични бири, IPA и много други — сервирани при идеална температура в специални чаши</p>
+      </div>
+      <div class="beers__grid">
+        <div class="beer-card">
+          <div class="beer-card__badge">Наша</div>
+          <h3>Наш'то пиво</h3>
+          <p class="beer-card__style">Amber Ale · 4.8%</p>
+          <p class="beer-card__desc">Ексклузивна амбър ейл, варена специално за Халбите</p>
+          <div class="beer-card__prices">
+            <span>300мл <strong>2.60€</strong></span>
+            <span>500мл <strong>3.50€</strong></span>
+            <span>1л <strong>6.70€</strong></span>
+          </div>
+        </div>
+        <div class="beer-card">
+          <h3>Pilsner Urquell</h3>
+          <p class="beer-card__style">Czech Lager · 4.4%</p>
+          <p class="beer-card__desc">Класически чешки пилзнер с богат хмелов аромат</p>
+          <div class="beer-card__prices">
+            <span>300мл <strong>2.90€</strong></span>
+            <span>500мл <strong>3.90€</strong></span>
+            <span>1л <strong>7.50€</strong></span>
+          </div>
+        </div>
+        <div class="beer-card">
+          <h3>Weihenstephan Weiss</h3>
+          <p class="beer-card__style">Wheat Beer · 5.4%</p>
+          <p class="beer-card__desc">Баварска пшенична бира от най-старата пивоварна в света</p>
+          <div class="beer-card__prices">
+            <span>300мл <strong>2.70€</strong></span>
+            <span>500мл <strong>3.40€</strong></span>
+            <span>1л <strong>6.50€</strong></span>
+          </div>
+        </div>
+        <div class="beer-card">
+          <h3>Velkopopovický Kozel</h3>
+          <p class="beer-card__style">Czech Dark Lager · 3.8%</p>
+          <p class="beer-card__desc">Тъмен чешки лагер с карамелени нотки</p>
+          <div class="beer-card__prices">
+            <span>300мл <strong>2.80€</strong></span>
+            <span>500мл <strong>3.60€</strong></span>
+            <span>1л <strong>6.90€</strong></span>
+          </div>
+        </div>
+        <div class="beer-card">
+          <h3>БохемЪ</h3>
+          <p class="beer-card__style">Bulgarian Lager · 4.6%</p>
+          <p class="beer-card__desc">Българска крафт лагер с чист вкус</p>
+          <div class="beer-card__prices">
+            <span>300мл <strong>2.50€</strong></span>
+            <span>500мл <strong>3.30€</strong></span>
+            <span>1л <strong>6.20€</strong></span>
+          </div>
+        </div>
+        <div class="beer-card">
+          <h3>Guinness</h3>
+          <p class="beer-card__style">Irish Stout · 4.2%</p>
+          <p class="beer-card__desc">Легендарният ирландски стаут — кремообразен и наситен</p>
+          <div class="beer-card__prices">
+            <span>500мл <strong>5.40€</strong></span>
+          </div>
+        </div>
+      </div>
+      <p class="beers__note">+ десетки бутилирани крафт бири, белгийски ейлове, трапистки бири и сезонни специалитети</p>
+    </div>
+  </section>
+
+  <!-- Food Menu -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu__header">
+        <span class="section-label">Храна</span>
+        <h2 class="section-title">Кухня за бирени ценители</h2>
+        <p class="section-desc">Прясно месо от български доставчици, немски вурстове, домашни бургери и класическа скара</p>
+      </div>
+
+      <div class="menu__tabs">
+        <button class="menu__tab active" data-tab="burgers">Бургери</button>
+        <button class="menu__tab" data-tab="sausages">Вурстове</button>
+        <button class="menu__tab" data-tab="grill">Скара</button>
+        <button class="menu__tab" data-tab="mains">Основни</button>
+        <button class="menu__tab" data-tab="meze">Мезета</button>
+        <button class="menu__tab" data-tab="salads">Салати</button>
+      </div>
+
+      <!-- Burgers -->
+      <div class="menu__panel active" id="tab-burgers">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Бургер с кюфте</h3>
+              <span class="menu__price">7.50€</span>
+            </div>
+            <p class="menu__desc">60% телешко и 40% свинско, чедър, маруля, кисели краставици, червен лук, домат, пържени картофки и специален сос</p>
+            <span class="menu__meta">450 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Бургер с дърпано свинско</h3>
+              <span class="menu__price">8.20€</span>
+            </div>
+            <p class="menu__desc">Свинска плешка, печена на бавен огън с тъмна бира, сос уорчестър, бекон, червен лук, маруля и пържени картофки</p>
+            <span class="menu__meta">500 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Пилешки бургер</h3>
+              <span class="menu__price">7.70€</span>
+            </div>
+            <p class="menu__desc">Панирано пилешко филе, домат, чедър, маруля, кисела краставичка, млечен сос и картофки уеджис</p>
+            <span class="menu__meta">400 г</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sausages -->
+      <div class="menu__panel" id="tab-sausages">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Тюрингски братвурст</h3>
+              <span class="menu__price">5.10€</span>
+            </div>
+            <p class="menu__desc">С кремска горчица</p>
+            <span class="menu__meta">180 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Кезе кнакер</h3>
+              <span class="menu__price">5.60€</span>
+            </div>
+            <p class="menu__desc">С кремска горчица</p>
+            <span class="menu__meta">200 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Дебрецинер</h3>
+              <span class="menu__price">5.60€</span>
+            </div>
+            <p class="menu__desc">С кремска горчица</p>
+            <span class="menu__meta">180 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Селекция наденички</h3>
+              <span class="menu__price">10.20€</span>
+            </div>
+            <p class="menu__desc">Четири броя наденички с горчица — микс от немски и английски</p>
+            <span class="menu__meta">320 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Къри вурст</h3>
+              <span class="menu__price">8.10€</span>
+            </div>
+            <p class="menu__desc">Тюрингски братвурст с доматен сос, запържен лук и пържени картофки с къри</p>
+            <span class="menu__meta">400 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Порция английски наденички</h3>
+              <span class="menu__price">8.20€</span>
+            </div>
+            <p class="menu__desc">Два броя наденички с домашни пържени картофки, къри, лют пипер и кремска горчица</p>
+            <span class="menu__meta">360 г</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grill -->
+      <div class="menu__panel" id="tab-grill">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Домашни кюфтета на скара</h3>
+              <span class="menu__price">6.40€</span>
+            </div>
+            <p class="menu__desc">Два броя кюфтета, 60/40 телешко/свинско с лютеница и салата зеле и моркови</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Печени свински ребра</h3>
+              <span class="menu__price">9.80€</span>
+            </div>
+            <p class="menu__desc">С гарнитура картофки и барбекю сос</p>
+            <span class="menu__meta">450 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Свинска вратна пържола</h3>
+              <span class="menu__price">7.40€</span>
+            </div>
+            <p class="menu__desc">На скара или тиган, с гарнитура задушени картофи</p>
+            <span class="menu__meta">300 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Телешки суджук</h3>
+              <span class="menu__price">9.00€</span>
+            </div>
+            <p class="menu__desc">С гарнитура картофки Уеджис, кисели краставички и лютеница</p>
+            <span class="menu__meta">450 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Пиле с мащерка и розмарин</h3>
+              <span class="menu__price">6.40€</span>
+            </div>
+            <p class="menu__desc">С гарнитура зелена салата</p>
+            <span class="menu__meta">250 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Гриловани зеленчуци</h3>
+              <span class="menu__price">5.80€</span>
+            </div>
+            <p class="menu__desc">Патладжан, тиквичка, чушка, морков, лук, майонезен сос</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="menu__panel" id="tab-mains">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Дърпано свинско с картофи</h3>
+              <span class="menu__price">9.50€</span>
+            </div>
+            <p class="menu__desc">Свинска плешка, печена на бавен огън с тъмна бира, пикантни подправки и специален сос</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Виенски шницел</h3>
+              <span class="menu__price">8.40€</span>
+            </div>
+            <p class="menu__desc">От бонфиле с гарнитура пържени картофки</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Свинско бонфиле с чушки</h3>
+              <span class="menu__price">8.50€</span>
+            </div>
+            <p class="menu__desc">На тиган с червени и зелени чушки, чесън, соев сос, мед, горчица, чили</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Вкусното пиле</h3>
+              <span class="menu__price">8.10€</span>
+            </div>
+            <p class="menu__desc">Късчета пилешка пържола, сметана, царевица, гъби, топено сирене и картофки уеджис</p>
+            <span class="menu__meta">400 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Картофи Халбите</h3>
+              <span class="menu__price">5.30€</span>
+            </div>
+            <p class="menu__desc">Картофи на тиган задушени с пушен бекон, маслини, сметана и настърган кашкавал</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Зеленчуково ризото</h3>
+              <span class="menu__price">6.90€</span>
+            </div>
+            <p class="menu__desc">Тиквички, моркови, чушки, лук, пармезан и сметана</p>
+            <span class="menu__meta">400 г</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meze -->
+      <div class="menu__panel" id="tab-meze">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Бирени пръжки</h3>
+              <span class="menu__price">4.70€</span>
+            </div>
+            <p class="menu__desc">Пържен суров бекон</p>
+            <span class="menu__meta">100 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Пилешки филенца с корнфлейкс</h3>
+              <span class="menu__price">6.80€</span>
+            </div>
+            <p class="menu__desc">Поднесени със специален сос</p>
+            <span class="menu__meta">300 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Баварско мезе</h3>
+              <span class="menu__price">5.60€</span>
+            </div>
+            <p class="menu__desc">Домашен колбас от печена свинска плешка с пикантни подправки и горчица</p>
+            <span class="menu__meta">150 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Бретцели с разядки</h3>
+              <span class="menu__price">6.10€</span>
+            </div>
+            <p class="menu__desc">Два броя бретцели с домашни разядки</p>
+            <span class="menu__meta">300 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Лучени кръгчета</h3>
+              <span class="menu__price">4.60€</span>
+            </div>
+            <p class="menu__desc">Домашни</p>
+            <span class="menu__meta">180 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Пилешки сърца в масло</h3>
+              <span class="menu__price">6.40€</span>
+            </div>
+            <p class="menu__desc">Задушени с масло, бяло вино и соев сос</p>
+            <span class="menu__meta">250 г</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Salads -->
+      <div class="menu__panel" id="tab-salads">
+        <div class="menu__grid">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Шопска салата</h3>
+              <span class="menu__price">5.40€</span>
+            </div>
+            <p class="menu__desc">Класическа шопска</p>
+            <span class="menu__meta">300 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Овчарска салата</h3>
+              <span class="menu__price">6.90€</span>
+            </div>
+            <p class="menu__desc">Домати, краставици, лук, кашкавал, сирене, бекон, яйце, чушки и гъби</p>
+            <span class="menu__meta">450 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Гръцка салата</h3>
+              <span class="menu__price">6.40€</span>
+            </div>
+            <p class="menu__desc">Домати, краставици, чушка, червен лук, сирене, маслини, босилек и зехтин</p>
+            <span class="menu__meta">450 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Цезар с пиле</h3>
+              <span class="menu__price">5.57€</span>
+            </div>
+            <p class="menu__desc">Класически Цезар с пилешко</p>
+            <span class="menu__meta">250 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Салата Рокфор</h3>
+              <span class="menu__price">6.08€</span>
+            </div>
+            <p class="menu__desc">Айсберг, маруля, сирене Рокфор, кашу, фурми и дресинг</p>
+            <span class="menu__meta">320 г</span>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h3>Биволско сирене с печени чушки</h3>
+              <span class="menu__price">6.90€</span>
+            </div>
+            <p class="menu__desc">Биволско сирене с печени чушки и домати</p>
+            <span class="menu__meta">350 г</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__header">
+        <span class="section-label">Контакти</span>
+        <h2 class="section-title">Заповядайте при нас</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__card">
+          <h3>Малките Пет</h3>
+          <div class="contact__details">
+            <p><span>📍</span> ул. Неофит Рилски 72, София</p>
+            <p><span>📞</span> <a href="tel:0878737786">0878 737 786</a></p>
+            <p><span>🕐</span> 11:00 – 00:00, всеки ден</p>
+          </div>
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1466.4!2d23.3247!3d42.6897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDQxJzIzLjAiTiAyM8KwMTknMjkuMCJF!5e0!3m2!1sbg!2sbg"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+        <div class="contact__card">
+          <h3>Три Уши</h3>
+          <div class="contact__details">
+            <p><span>📍</span> ул. Три Уши 13, София</p>
+            <p><span>📞</span> <a href="tel:0878737782">0878 737 782</a></p>
+            <p><span>🕐</span> 11:00 – 00:00, всеки ден</p>
+            <p><span>🛵</span> Доставка: 12:00 – 21:30</p>
+          </div>
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1466.4!2d23.3169!3d42.6957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDQxJzQ0LjQiTiAyM8KwMTknMDAuOCJF!5e0!3m2!1sbg!2sbg"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      <div class="contact__social">
+        <a href="https://facebook.com/Halbite" target="_blank" class="contact__social-link" aria-label="Facebook">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://instagram.com/biraria_halbite/" target="_blank" class="contact__social-link" aria-label="Instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo-icon">🍺</span>
+          <span class="footer__logo-text">Халбите</span>
+          <p class="footer__tagline">Бирена култура в София от 2000 г.</p>
+        </div>
+        <div class="footer__links">
+          <h4>Навигация</h4>
+          <a href="#about">За нас</a>
+          <a href="#locations">Локации</a>
+          <a href="#beers">Бири</a>
+          <a href="#menu">Меню</a>
+          <a href="#contact">Контакти</a>
+        </div>
+        <div class="footer__links">
+          <h4>Поръчай онлайн</h4>
+          <a href="https://triushi.halbite.com/orderfood" target="_blank">Доставка от Три Уши</a>
+          <a href="https://facebook.com/Halbite" target="_blank">Facebook</a>
+          <a href="https://instagram.com/biraria_halbite/" target="_blank">Instagram</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Бирария Халбите. Всички права запазени.</p>
+        <p class="footer__demo">Демо дизайн — не е официалният сайт</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
